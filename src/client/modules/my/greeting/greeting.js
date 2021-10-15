@@ -2,6 +2,7 @@ import { LightningElement, api } from 'lwc';
 
 const greetings = [
     'Hello',
+    'Yeeto',
     'Bonjour',
     '你好',
     'Hola',
@@ -12,7 +13,8 @@ const greetings = [
     'Ciao',
     'नमस्ते',
     '안녕하세요',
-    'مرحبا'
+    'مرحبا',
+    'adding random shit to greetings'
 ];
 const SPEED_CLASS_MAP = {
     slow: 'fade-slow',
