@@ -2,6 +2,7 @@ import { LightningElement, api } from 'lwc';
 
 const greetings = [
     'Hello',
+    'Deleto',
     'Yeeto',
     'Bonjour',
     '你好',
