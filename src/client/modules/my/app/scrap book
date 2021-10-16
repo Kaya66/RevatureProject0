@@ -1,0 +1,49 @@
+
+
+    <!-- 300i Sales Page-->
+        <template if:false={welcomeScreen}>
+            <div>
+                <p><lightning-formatted-text class="pageheader" value="ShipPage"></lightning-formatted-text></p>
+                <button type="button" class="button" onclick={handleClick}>Return from once you came</button>
+            </div>
+            <div>
+
+            </div>
+        </template>
+        
+ <!--Landing Page-->
+
+        <template if:true={welcomeScreen}>
+            <div>
+                <img src="./resources/890Jump_Bay-4-4.jpg">
+
+
+
+
+
+                <!-- Setting Up navigation Buttons at the top of the screen-->
+                <div style="text-align:right; margin-top: 2%;">
+                        <button type="button" class="button_bottom" onclick={handleClick}>Enter      The      Origin</button>
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+                <!--Ending Navigation button section-->
+
+
+
+
+                <div class="justify-center">
+                    <img class="welcomeimg" src="./resources/OriginJumpworks.webp">
+                </div>
+                <div style="text-align:center; margin-top: 40%;">
+                    <div>
+                        <button type="button" class="button_bottom" onclick={handleClick}>Enter      The      Origin</button>
+                    </div>
+                </div>
+            </div>
+        </template>
+

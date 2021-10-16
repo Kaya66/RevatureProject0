@@ -1,26 +1,34 @@
 <template>
-    <!-- LWC sample component <my-greeting> -->
-    <div class="center greeting">
-        <!-- <my-greeting speed="slow"></my-greeting> -->
-        <my-greeting speed="medium"></my-greeting>
-        <!-- <my-greeting speed="fast"></my-greeting> -->
-    </div>
-
-    <div class="center">
-        <img src="./resources/lwc.png" />
-    </div>
-
-    <!-- Page code -->
-    <div class="center">
-        <div class="container">
-            <!-- prettier-ignore -->
-            <p class="info">
-                Edit <strong class="code">src/client/modules/my/app/app.html</strong>
-                <br />and save for live reload.
-            </p>
-        </div>
+    <div>
+        <!--Top Navigation plane-->
         <div>
-            <a href="https://lwc.dev" class="link" target="_blank">Learn LWC</a>
+            <div class="bgwall">
+                <button type="button" class="navTopLeft" onclick={handleClick}>300i</button>
+            </div>
+            <div>
+                <button type="button" class="navTopCenter" onclick={handleClick}>600i</button>
+            </div>
+            <div>
+                <button type="button" class="navTopRight" onclick={handleClick}>890Jump</button>
+            </div>
+
+
+
         </div>
+    </div>
+    <div>
+        <!--Origin Logo center-->
+        <div >
+            <img class="center" src="./resources/OriginJumpworks.webp">
+        </div>
+
+    </div>
+    <div>
+        <!--Summary information about origin-->
+        <div>
+            <my-originHistory></my-originHistory>
+
+        </div>
+
     </div>
 </template>

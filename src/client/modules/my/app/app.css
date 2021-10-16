@@ -1,38 +1,87 @@
-.center {
-    text-align: center;
+.center{
+    position: absolute;
+    top: 50%;
+    left: 10%;
 }
-.link {
+
+.button_bottom {
+    
     border: none;
-    padding: 10px;
-    border-radius: 5px;
+    background: none;
+    color: #2b97d6;
+    padding: 0px 0px;
+    text-align: center;
     text-decoration: none;
-    background-color: #ff6000;
-    color: white;
-    margin-left: 33%;
-    margin-right: 33%;
     display: inline-block;
-    margin-top: 1em;
+    font-size: 24px;
 }
-.info {
-    color: black;
-    background-color: #e4f2f8;
-    margin: auto;
-    padding: 15px 10px;
-    text-align: left;
-    width: 300px;
-    border-radius: 5px;
+.navTopLeft:hover{
+    color: rgba(102, 128, 243, 0.616);
 }
-.code {
-    font-family: monospace;
+.navTopCenter:hover{
+    color: rgb(102, 128, 243, 0.616);
 }
-.container {
-    margin-top: 30px;
+.navTopRight:hover{
+    color: rgb(102, 128, 243, 0.616);
 }
 
-img {
-    max-width: 150px;
+.stealthbox{
+    display: block;
+    text-decoration: none;
+    color:rgba(245, 222, 179, 0.027)
 }
 
-.greeting {
-    height: 75px;
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.uibox{
+    position: absolute;
+    top: 5%;
+    min-width: 100%;;
+}
+
+.navTopLeft{
+    position: absolute;
+    left: 15%;
+    top: 1.25%;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: fantasy;
+    font-weight: normal;
+    font-size: 24px;
+
+}
+.navTopCenter{
+    position: absolute;
+    left: 50%;
+    top: 1.25%;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: fantasy;
+    font-weight: normal;
+    font-size: 24px;
+}
+.navTopRight{
+    position: absolute;
+    left: 85%;
+    top: 1.25%;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: fantasy;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.bgwall {
+    padding: 1.3rem;
+    display: flex;
+    background: #05429152;
+    align-items: center;
+
 }
