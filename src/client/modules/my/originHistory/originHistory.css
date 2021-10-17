@@ -1,13 +1,43 @@
-.format{
+.display{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
 
 }
+.flex-item{
+    position: absolute;
+    padding: 0px;
+    font-weight: bold;
+    left: 70vw;
+    top: 10vh;
+    font-family: fantasy;
+    background:rgba(124, 124, 124, 0.267);
+    border-radius: 4px;
+    padding: 4px;
+    
 
-.threeHundred{
 
 }
-.sixHundred{
-
+.flex-item-bottom{
+    position: absolute;
+    padding: 0px;
+    font-weight: bold;
+    left: 2vw;
+    right: 75vw;
+    top: 85vh;
+    font-family: fantasy;
+    background:rgba(124, 124, 124, 0.685);
+    border-radius: 8px;
+    padding: 2px;
+    
 }
-.eightNinetyJump{
-
+img{
+    position: absolute;
+    top: 25vh;
+    left: 35vw;
+    height: auto;
+    width: auto;
+    max-width: 70vh;
+    max-height: 70vh;
 }

@@ -1,34 +1,62 @@
 <template>
-    <div>
+    <template if:true={homePage}>
+        <div>
+
+
+        <!--Thoughts:   the 890j page, i have no transparencies of that ship.  may make one later.    css is a pain ;D-->
         <!--Top Navigation plane-->
+            <div>
+                <div >
+                    <button type="button" class="navTopLeft" onclick={handleClickThreeHundred}>300i</button>
+                </div>
+                <div>
+                    <button type="button" class="navTopCenter" onclick={handleClickSixHundred}>600i</button>
+                </div>
+                <div>
+                    <button type="button" class="navTopRight" onclick={handleClickEightNinety}>890Jump</button>
+                </div>
+            </div>
+        </div>
+
+        
         <div>
+                <!--background top 5% of screen for the buttons-->
             <div class="bgwall">
-                <button type="button" class="navTopLeft" onclick={handleClick}>300i</button>
             </div>
-            <div>
-                <button type="button" class="navTopCenter" onclick={handleClick}>600i</button>
-            </div>
-            <div>
-                <button type="button" class="navTopRight" onclick={handleClick}>890Jump</button>
+            <!--BG deco-->
+            <div class="display">
+                <img class="vector" src="./resources/image-from-rawpixel.png">
             </div>
 
-
-
+            <!--Origin Logo top left-->
+            <div class="display">
+                <img class="logo" src="./resources/OriginJumpworks.webp">
+            </div>
         </div>
-    </div>
-    <div>
-        <!--Origin Logo center-->
-        <div >
-            <img class="center" src="./resources/OriginJumpworks.webp">
-        </div>
-
-    </div>
-    <div>
-        <!--Summary information about origin-->
         <div>
-            <my-originHistory></my-originHistory>
+            <!--Summary information about origin-->
+            <div>
+                <my-originHistory></my-originHistory>
+            </div>
+
 
         </div>
+    </template>
+    
 
-    </div>
+
+
+    <!-- These chunks below are the differnet pages that will render if a button is clicked-->
+    <template if:true={threeHundred}>
+        <my-threeHundred></my-threeHundred>
+    </template>
+    <template if:true={sixHundred}>
+        <my-sixHundred></my-sixHundred>
+    </template>
+    <template if:true={eightNinety}>
+        <my-eightNinety></my-eightNinety>
+
+    </template>
+
+
 </template>

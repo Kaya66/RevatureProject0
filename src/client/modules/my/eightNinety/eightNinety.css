@@ -1,0 +1,73 @@
+.bg{
+    position: absolute;
+    top: 0vh;
+    right: -5vw;
+    height: 100%;
+    width: auto;
+    max-width: 120vw;
+    max-height: 120vh;
+}
+.display{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+.bg_img{
+    position: absolute;
+    top: 4.25vh;
+    left: 0vw;
+    height: auto;
+    width: 100vw;
+    max-width: 100vw;
+}
+.logo_img{
+    position: absolute;
+    top: vh;
+    left: 2vw;
+    height: auto;
+    width: auto;
+    max-width: 30vw;
+    max-height: 15vh;
+}
+img{
+    transform-origin: center;
+}
+.slogan_img{
+    position: absolute;
+    top: -12vh;
+    left: 1.5vw;
+    height: auto;
+    width: auto;
+    max-width: 38vw;
+    max-height: 38vh;
+}
+
+.bg_filler{
+    padding: 47vh;
+    display: flex;
+    background: #666666;
+    align-items: center;
+}
+.bgwall {
+    padding: 2.5vh;
+    display: flex;
+    background: #666666;
+    align-items: center;
+
+}
+.logo{
+    position: absolute;
+    top: .6vh;
+    left: 2vh;
+    height: 43px;
+    width: auto;
+}
+.bottom_pic{
+    position: absolute;
+    bottom: 0vh;
+    width: 100vw;
+    height:auto;
+    top: 40vh;
+}

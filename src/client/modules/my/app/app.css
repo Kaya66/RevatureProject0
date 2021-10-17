@@ -1,7 +1,43 @@
-.center{
+.display{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top: .6vh;
+    left: 2vh;
+    height: 43px;
+    width: auto;
+}
+.eightNinety{
+    position: absolute;
+    top: 5vh;
+    left: 75vw;
+    height: auto;
+    width: auto;
+    max-width: 24vw;
+    max-height: 16vh;
+}
+.threeHundred{
+    position: absolute;
+    top: 5vh;
+    left: 13vw;
+    height: auto;
+    width: auto;
+    max-width: 6vw;
+    max-height: 8vh;
+}
+.vector{
+    position: absolute;
+    top: 5vh;
+    left: 0vw;
+    height: 95.75%;
+    width: auto;
+    max-width: 120vw;
+    max-height: 120vh;
 }
 
 .button_bottom {
@@ -16,13 +52,16 @@
     font-size: 24px;
 }
 .navTopLeft:hover{
-    color: rgba(102, 128, 243, 0.616);
+    color: rgb(78, 179, 204);
+    text-decoration: underline;
 }
 .navTopCenter:hover{
-    color: rgb(102, 128, 243, 0.616);
+    color: rgb(78, 179, 204);
+    text-decoration: underline;
 }
 .navTopRight:hover{
-    color: rgb(102, 128, 243, 0.616);
+    color: rgb(78, 179, 204);
+    text-decoration: underline;
 }
 
 .stealthbox{
@@ -57,7 +96,7 @@
 }
 .navTopCenter{
     position: absolute;
-    left: 50%;
+    left: 47%;
     top: 1.25%;
     border: none;
     outline: none;
@@ -68,7 +107,7 @@
 }
 .navTopRight{
     position: absolute;
-    left: 85%;
+    left: 80%;
     top: 1.25%;
     border: none;
     outline: none;
@@ -79,9 +118,9 @@
 }
 
 .bgwall {
-    padding: 1.3rem;
+    padding: 2.5vh;
     display: flex;
-    background: #05429152;
+    background: #666666;
     align-items: center;
 
 }
