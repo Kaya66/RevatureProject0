@@ -8,12 +8,12 @@ module.exports = {
         from: 'node_modules/@salesforce-ux/design-system/assets', 
         to: 'src/SLDS'
     },
-        {
-            from: 'node_modules/@salesforce-ux/design-system/assets',
-            to: 'dist/SLDS'
+    {
+        from: 'node_modules/@salesforce-ux/design-system/assets',
+        to: 'dist/SLDS'
         
         
-        }],
+    }],
         
             sourceDir: './src/client',
             moduleDir: './src/client/modules',

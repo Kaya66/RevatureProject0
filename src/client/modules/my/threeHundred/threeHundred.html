@@ -1,25 +1,38 @@
 <template>
-    <div>
-        <div class="display">
-            <img class="bg" src="./resources/image-from-rawpixel-inverted.png">
-        </div>
-        <div class="display">
-            <img class="logo_img" src="./resources/300i_logo.png">
-        </div>
 
+
+    <!--head on, apply directly to the header-->
+    <my-head-foot></my-head-foot>
+
+
+
+    <!--FLAVA TXT-->
+    <div class="textdisplay">
+        <lightning-card>
+            <p class="slds-p-horizontal_small">The 300i is origin's premier star craft dedicated to serving the every day family.</p>
+            <p class="slds-p-horizontal_small">With Origin's craftmanship, We are happy to deliver to you our most advanced shuttle yet.</p>
+            <p class="slds-p-horizontal_small"></p>
+        </lightning-card>  
+    </div>
+
+
+        <!--I wouldnt mind more pictures. c:  -->
         <div class="display">
-            <img class="bg_img" src="./resources/300i_transparent.png">
-            
-        </div>
-        <div class="display">
-            <img class="slogan_img" src="./resources/300i_slogan.png">
-        </div>
-        <div class=bgwall>
-            
-        </div>
-        <div class="display">
-            <img class="logo" src="./resources/OriginJumpworks.webp">
-        </div>
+            <img class="ship_img" src="./resources/300i_transparent.png">
+            <img class="ship_name" src="./resources/300i_logo.png">
+
+
+            <div class="display">
+                <img class="slogan_img" src="./resources/300i_slogan.png">
+                
+            </div>
+
+            <div class="display">
+                <!-- Bottom row of ships that may take you to that ships respective page some day in the future-->
+                <my-optional-ships></my-optional-ships>
+            </div>
+
+
 
 
     </div>

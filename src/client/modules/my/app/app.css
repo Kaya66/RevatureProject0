@@ -5,122 +5,30 @@
     align-items: center;
     justify-content: space-around;
 }
-.logo{
-    position: absolute;
-    top: .6vh;
-    left: 2vh;
-    height: 43px;
-    width: auto;
-}
-.eightNinety{
-    position: absolute;
-    top: 5vh;
-    left: 75vw;
-    height: auto;
-    width: auto;
-    max-width: 24vw;
-    max-height: 16vh;
-}
-.threeHundred{
-    position: absolute;
-    top: 5vh;
-    left: 13vw;
-    height: auto;
-    width: auto;
-    max-width: 6vw;
-    max-height: 8vh;
-}
+
 .vector{
     position: absolute;
-    top: 5vh;
+    top: 56px;
     left: 0vw;
-    height: 95.75%;
+    bottom: 56px;
     width: auto;
+    height: 92.25%;
     max-width: 120vw;
     max-height: 120vh;
 }
-
-.button_bottom {
-    
-    border: none;
-    background: none;
-    color: #2b97d6;
-    padding: 0px 0px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-}
-.navTopLeft:hover{
-    color: rgb(78, 179, 204);
-    text-decoration: underline;
-}
-.navTopCenter:hover{
-    color: rgb(78, 179, 204);
-    text-decoration: underline;
-}
-.navTopRight:hover{
-    color: rgb(78, 179, 204);
-    text-decoration: underline;
-}
-
-.stealthbox{
-    display: block;
-    text-decoration: none;
-    color:rgba(245, 222, 179, 0.027)
-}
-
-*{
-    margin:0;
-    padding:0;
-}
-
-
-.uibox{
-    position: absolute;
-    top: 5%;
-    min-width: 100%;;
-}
-
-.navTopLeft{
-    position: absolute;
-    left: 15%;
-    top: 1.25%;
-    border: none;
-    outline: none;
-    background: none;
-    font-family: fantasy;
-    font-weight: normal;
-    font-size: 24px;
-
-}
-.navTopCenter{
-    position: absolute;
-    left: 47%;
-    top: 1.25%;
-    border: none;
-    outline: none;
-    background: none;
-    font-family: fantasy;
-    font-weight: normal;
-    font-size: 24px;
-}
-.navTopRight{
-    position: absolute;
-    left: 80%;
-    top: 1.25%;
-    border: none;
-    outline: none;
-    background: none;
-    font-family: fantasy;
-    font-weight: normal;
-    font-size: 24px;
-}
-
-.bgwall {
-    padding: 2.5vh;
+.textdisplay{
     display: flex;
-    background: #666666;
-    align-items: center;
-
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    justify-content: right;
+}
+.displaypicture{
+    position: absolute;
+    display:flex;
+    top: 38vh;
+    right: 0vw;
+    justify-content: right;
+    width: 800px;
+    height: 450px;
 }

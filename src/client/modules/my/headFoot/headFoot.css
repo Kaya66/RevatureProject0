@@ -1,0 +1,51 @@
+.display{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    right: 0vw;
+    left: 0vw;
+}
+.bgwalltop{
+    padding: 0px;
+    height: 56px;
+    display: flex;
+    background: #c0c0c0;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.displaybottom{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+}
+.bgwallbottom{
+    position: absolute;
+    padding: 22px;
+    display: flex;
+
+    background: #c0c0c0;
+    align-items: center;
+    width: 100%;
+    bottom: 0vh;
+}
+
+.logo{
+    position: absolute;
+    width: 95px;
+    height: auto;
+    left: 1vw;
+}
+
+.buttons{
+    padding: 0px;
+    height: 56px;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}

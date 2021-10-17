@@ -1,39 +1,34 @@
 <template>
-    <div>
+
+    <!--top/bottom grey bar or page framing-->
+    <my-head-foot></my-head-foot>
 
 
-
-
-
+    <!--Text directly below the picture of the ship-->
+    <div class="textdisplay">
+        <lightning-card>
+            <p class="slds-p-horizontal_small">With the Origin 890 Jump, you can host parties or entertain distinguished guests.</p>
+            <p class="slds-p-horizontal_small">Being Origin's crowing achievement, this capital class luxury starliner will</p>
+            <p class="slds-p-horizontal_small">show anyone who boards what it means to live a life of luxury.</p>
+        </lightning-card>  
+    </div>
 
         <div class="display">
-            
+            <img class="ship_img" src="./resources/890j_transparency.png">
+            <img class="ship_name" src="./resources/890j_logo.png">
 
-        
-        <div class="bgwall">
-        </div>
-        <div class="bottom_bgwall">
-        </div>
-            <img class="bg_img" src="./resources/890j_transparency.png">
-            <lightning-formatted-rich-text class="flex-text-box"
-            value={eightNinetySalesPitch}></lightning-formatted-rich-text>
+
             <div class="display">
                 <img class="slogan_img" src="./resources/890j_slogan.png">
+                
             </div>
+
+
+            <!-- Bottom row of ships that may take you to that ships respective page some day in the future-->
             <div class="display">
-                <lightning-formatted-rich-text class="flex-text-box-bottom"
-                value={eightNinetyContactInfo}></lightning-formatted-rich-text>
-            </div>
-            
-
-
-
-
-            <div class="display">
-                <img class="logo" src="./resources/OriginJumpworks.webp">
+                <my-optional-ships></my-optional-ships>
             </div>
 
-        </div>
 
 
 

@@ -1,0 +1,152 @@
+.bg{
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+    left: 0vw;
+    bottom: 2.5vh;
+    height: 100%;
+    width: 100vw;
+    max-width: 120vw;
+    max-height: 120vh;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+.bg_img{
+    position: absolute;
+    top: 128px;
+    left: 40px;
+    height: auto;
+    width: 400px;
+}
+.logo_img{
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: auto;
+    width: auto;
+    max-width: 30vw;
+    max-height: 15vh;
+}
+img{
+    transform-origin: center;
+    position: absolute;
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 200px;
+    object-fit: cover;
+}
+.slogan_img{
+    position: absolute;
+    top: -64px;
+    left: 5vw;
+    bottom: 0vh;
+    right: 0vw;
+    height: 256px;
+    width: auto;
+}
+.bgwall {
+    position: absolute;
+    padding:32px;
+    top: 0vh;
+    left: 0vh;
+    right: 0vh;
+    display: flex;
+    background: #666666;
+    align-items: center;
+
+}
+.bottom_bgwall{
+    position: absolute;
+    padding: 32px;
+    bottom: 0vh;
+    left: 0vh;
+    right: 0vh;
+    display: flex;
+    background: #666666;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 43px;
+    width: auto;
+}
+.flex-text-box{
+    position: absolute;
+    padding: 0px;
+    font-weight: bold;
+    left: 20px;
+    top: 432px;
+    max-width: 400px;
+    font-family: fantasy;
+    background:rgba(124, 124, 124, 0.267);
+    border-radius: 4px;
+    padding: 4px;
+    
+}
+.flex-text-box-bottom{
+    position: absolute;
+    padding: 0px;
+    font-weight: bold;
+    left: 5vw;
+    bottom: 2vh;
+    right: 1.25vh;
+    font-family: fantasy;
+}
+.imgSize{
+
+    max-height: 400px;
+    max-width: 400px;
+}
+.extrashipone{
+    flex-grow: 1;
+    position: absolute;
+    bottom: 400px;
+    left: 1vw;
+}
+.extrashiponetext{
+    position: absolute;
+    top: 70px;
+    left: 0vw;
+}
+.extrashiptwo{
+    position: absolute;
+    height: auto;
+    width: 120px;
+    bottom: 400px;
+    left: 45vw;
+}
+.extrashiptwotext{
+    position: absolute;
+    height: auto;
+    width: 528px;
+    top: 75px;
+    left: -100px;
+}
+
+.extrashiptwobg{
+    position: absolute;
+    height: auto;
+    width: 512px;
+    top: 0px;
+    left: -100px;
+}
+
+.extrashipthree{
+position: absolute;
+bottom: 400px;
+left: 75vw;
+}
+.extrashipthreetext{
+    position: absolute;
+    top: -80px;
+    left: 0vw;
+}
