@@ -1,27 +1,42 @@
 <template>
     <div>
 
-        <!-- Could Not get a repeating background image or a good 890j transparency to go for this page.  this page will be the bane of my existance unless i make a transparent 890j-->
-        <div class="display">
-            <img class="bottom_pic" src="./resources/repeating_star_bg">
-        </div>
-        <div class="display">
-            <img class="bg_img" src="./resources/890Jump_Bay-4-4.jpg">
-        </div>
+
+
+
 
 
         <div class="display">
-            <img class="slogan_img" src="./resources/890j_slogan.png">
-        </div>
-
-        <div class="display">
-            <img class="logo" src="./resources/OriginJumpworks.webp">
-        </div>
-        <div class=bgwall>
-
-        </div>
+            
 
         
+        <div class="bgwall">
+        </div>
+        <div class="bottom_bgwall">
+        </div>
+            <img class="bg_img" src="./resources/890j_transparency.png">
+            <lightning-formatted-rich-text class="flex-text-box"
+            value={eightNinetySalesPitch}></lightning-formatted-rich-text>
+            <div class="display">
+                <img class="slogan_img" src="./resources/890j_slogan.png">
+            </div>
+            <div class="display">
+                <lightning-formatted-rich-text class="flex-text-box-bottom"
+                value={eightNinetyContactInfo}></lightning-formatted-rich-text>
+            </div>
+            
+
+
+
+
+            <div class="display">
+                <img class="logo" src="./resources/OriginJumpworks.webp">
+            </div>
+
+        </div>
+
+
+
     </div>
 
 
