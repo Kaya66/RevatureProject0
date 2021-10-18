@@ -1,0 +1,34 @@
+.display{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vector{
+    position: absolute;
+    top: 56px;
+    left: 0vw;
+    bottom: 56px;
+    width: auto;
+    height: 92.25%;
+    max-width: 120vw;
+    max-height: 120vh;
+}
+.textdisplay{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    justify-content: right;
+}
+.displaypicture{
+    position: absolute;
+    display:flex;
+    top: 38vh;
+    right: 0vw;
+    justify-content: right;
+    width: 800px;
+    height: 450px;
+}
