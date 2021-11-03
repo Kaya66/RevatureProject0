@@ -1,4 +1,18 @@
 <template>
+
+
+    <template if:true={threeHundred}>
+        <my-threeHundred ></my-threeHundred>
+    </template>
+    <template if:true={sixHundred}>
+        <my-sixHundred></my-sixHundred>
+    </template>
+    <template if:true={eightNinety}>
+        <my-eightNinety></my-eightNinety>
+
+    </template>
+
+
     <my-head-foot onbuttonclick={handleClickThreeHundred} onbuttonclick2={handleClickSixHundred} onbuttonclick3={handleClickEightNinety}></my-head-foot>
  
 
@@ -10,16 +24,10 @@
 
 
     <!-- These chunks below are the differnet pages that will render if a button is clicked-->
-    <template if:true={threeHundred}>
-        <my-threeHundred ></my-threeHundred>
-    </template>
-    <template if:true={sixHundred}>
-        <my-sixHundred></my-sixHundred>
-    </template>
-    <template if:true={eightNinety}>
-        <my-eightNinety></my-eightNinety>
 
-    </template>
+
+
+    
 
 
 </template>
